@@ -60,5 +60,4 @@ class Test_004_Search:
         status = self.search.searchByName("ram kumar")
         assert True == status
 
-    def test_method(self):
-        print('test merge')
+    
