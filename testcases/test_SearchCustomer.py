@@ -62,3 +62,5 @@ class Test_004_Search:
 
     def test_method(self):
         print('test merge')
+    def test_method1(self):
+        print("sdet test merge")
