@@ -1,6 +1,6 @@
 import pytest
 from selenium import webdriver
-import pytest_metadata
+
 
 @pytest.fixture()
 def setup(browser):
@@ -34,7 +34,7 @@ def pytest_configure(config):
         "Module" : "customers"
     }
 
-@pytest.mark.optionalhookc
+@pytest.mark.optionalhook
 def pytest_metadata(metadata):
     metadata.pop("JAVA_HOME",None)
     metadata.pop("Plugins",None)
